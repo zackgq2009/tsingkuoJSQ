@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">firstJSQ</string>
+    <string name="first_one">C</string>
+    <string name="first_two">DEL</string>
+    <string name="first_three">÷</string>
+    <string name="first_four">×</string>
+    <string name="second_one">7</string>
+    <string name="second_two">8</string>
+    <string name="second_three">9</string>
+    <string name="second_four">-</string>
+    <string name="third_one">4</string>
+    <string name="third_two">5</string>
+    <string name="third_three">6</string>
+    <string name="third_four">+</string>
+    <string name="fourth_one">1</string>
+    <string name="fourth_two">2</string>
+    <string name="fourth_three">3</string>
+    <string name="fourth_four">=</string>
+    <string name="fifth_one">0</string>
+    <string name="fifth_two">0</string>
+    <string name="fifth_three">.</string>
+    <string name="fifth_four">=</string>
+</resources>
