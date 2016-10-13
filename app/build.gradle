@@ -3,7 +3,6 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
-
     defaultConfig {
         applicationId "com.tsingkuo.johnny.firstjsq"
         minSdkVersion 22
@@ -11,6 +10,25 @@ android {
         versionCode 1
         versionName "1.0"
     }
+    signingConfigs {
+        debug {
+            File strFile = new File("../../Keystore/Debug/debug.jks")
+            storeFile file('/Users/johnny/Documents/workspace/android/tsingkuoprojects.jks')
+            storePassword 'guoqing2665256'
+            keyAlias 'tsingkuoprojects'
+            keyPassword 'guoqing2665256'
+            //println strFile.absolutePath;
+        }
+        release {
+            File strFile = new File("../../Keystore/Release/release.jks")
+            storeFile file('/Users/johnny/Documents/workspace/android/tsingkuoprojects.jks')
+            storePassword 'guoqing2665256'
+            keyPassword 'guoqing2665256'
+            keyAlias 'tsingkuoprojects'
+            // println strFile.absolutePath;
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
